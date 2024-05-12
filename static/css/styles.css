@@ -68,3 +68,22 @@ div.content {
     border: 1px solid #FF4343;
     background: #FF9C9C;
 }
+ul.list-posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-width: 600px;
+}
+ul.list-posts li {
+	margin: 20px 0 0 0;
+	border: 1px solid #eee;
+}
+ul.list-posts .title {
+	margin: 0;
+	padding: 5px;
+	background: #eee;
+}
+ul.list-posts .annonce {
+	margin: 0;
+	padding: 10px 5px 10px 5px;
+}
