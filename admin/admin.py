@@ -103,3 +103,6 @@ def listusers():
             print("Ошибка получения статей из БД " + str(e))
 
     return render_template('admin/listusers.html', title='Список пользователей', menu=menu, list=list)
+
+
+
